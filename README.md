@@ -1,0 +1,4 @@
+libWeChatSDK
+============
+
+Mirror for Cocoapods
