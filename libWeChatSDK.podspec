@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
     "Tencent" => "weixinapp@qq.com"
   }
   s.source = {
-    :git => "https://github.com/nickcheng/libWeChatSDK.git"
+    :git => "https://github.com/nickcheng/libWeChatSDK.git",
+    :tag => "{s.version}"
   }
   s.platform = :ios
   s.source_files = "*.h"
