@@ -12,14 +12,16 @@ Pod::Spec.new do |s|
     "Tencent" => "weixinapp@qq.com"
   }
   s.source = {
-    :http => "https://open.weixin.qq.com/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK_iOS_1.4.2.1.zip"
+    :git => "https://github.com/nickcheng/libWeChatSDK.git"
   }
   s.platform = :ios
   s.source_files = "*.h"
   s.public_header_files = "*.h"
   s.preserve_paths = "libWeChatSDK.a"
+  s.vendored_libraries = "libWeChatSDK.a"
   s.xcconfig = {
-    "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/libWeChatSDK\""
+    'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/libWeChatSDK"',
+    'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/libWeChatSDK"'
   }
   s.requires_arc = false
 
