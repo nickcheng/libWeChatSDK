@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "libWeChatSDK"
-  s.version = "1.4.2.1"
+  s.version = "1.5"
   s.license = {
     :type => "Copyright",
     :text => "      Copyright (c) 2012 Tencent. All rights reserved.\n"
