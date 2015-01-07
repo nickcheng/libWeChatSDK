@@ -25,5 +25,6 @@ Pod::Spec.new do |s|
     'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/libWeChatSDK"'
   }
   s.requires_arc = false
+  s.frameworks = 'SystemConfiguration'
 
 end
