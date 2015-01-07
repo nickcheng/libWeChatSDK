@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
   }
   s.requires_arc = false
   s.frameworks = 'SystemConfiguration'
-  s.libraries = 'z', 'sqlite3.0'
+  s.libraries = 'z', 'sqlite3.0', 'c++'
 
 end
