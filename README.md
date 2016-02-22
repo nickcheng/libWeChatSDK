@@ -1,6 +1,6 @@
 # libWeChatSDK
 
-Mirror for Cocoapods
+Mirror for CocoaPods
 
 官方下载地址：
 [`https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319164&lang=zh_CN`](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319164&lang=zh_CN)
