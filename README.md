@@ -5,13 +5,17 @@ Mirror for CocoaPods
 官方下载地址：
 [`https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319164&lang=zh_CN`](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319164&lang=zh_CN)
 
-# 1.6
+# SDK 1.6.2
+1. Xcode 7.1 构建的 SDK 包
+2. 请使用 Xcode 7.1 进行编译
 
-**重要!**
+# SDK 1.6.1
+1. 修复 armv7s 下，bitcode 可能编译不过
+2. 解决 warning
 
-SDK1.6
+# SDK 1.6
 
-1. iOS 9 系统策略更新，限制了 http 协议的访问，此外应用需要在 `Info.plist` 中将要使用的 URL Schemes 列为白名单，才可正常检查其他应用是否安装。
+1. iOS 9 系统策略更新，限制了 HTTP 协议的访问，此外应用需要在 `Info.plist` 中将要使用的 URL Schemes 列为白名单，才可正常检查其他应用是否安装。
 受此影响，当你的应用在 iOS 9 中需要使用微信 SDK 的相关能力（分享、收藏、支付、登录等）时，需要在 `Info.plist` 里增加如下代码：
 
     ```xml
@@ -32,9 +36,7 @@ SDK1.6
 2. 开发者需要在工程中链接上 `CoreTelephony.framework`
 3. 解决 bitcode 编译不过问题
 
-# 1.5
-
-SDK1.5
+# SDK 1.5
 
 1. 废弃 `safeSendReq:` 接口，使用 `sendReq:` 即可。
 2. 新增 `+(BOOL) sendAuthReq:(SendAuthReq*) req viewController : (UIViewController*) viewController delegate:(id<WXApiDelegate>) delegate;`
