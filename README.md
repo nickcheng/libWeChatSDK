@@ -3,7 +3,15 @@
 Mirror for CocoaPods
 
 官方下载地址：
-[`https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319164&lang=zh_CN`](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419319164&lang=zh_CN)
+[`https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.1.zip`](https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.1.zip)
+
+# SDK 1.7.1
+1. 支持兼容 ipv6 (提升稳定性)
+2. xCode Version 7.3.1 (7D1014) 编译
+
+# SDK 1.7
+1. 支持兼容 ipv6
+2. 修复若干问题增强稳定性
 
 # SDK 1.6.2
 1. Xcode 7.1 构建的 SDK 包
