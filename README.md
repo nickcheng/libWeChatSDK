@@ -3,22 +3,46 @@
 Mirror for CocoaPods
 
 官方下载地址：
-[`https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.1.zip`](https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.1.zip)
+[`https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.5.zip`](https://res.wx.qq.com/open/zh_CN/htmledition/res/dev/download/sdk/WeChatSDK1.7.5.zip)
+
+# SDK 1.7.5
+
+1. 提高稳定性
+2. 加快 `registerApp` 接口启动速度
+
+# SDK 1.7.4
+
+1. 更新支持 iOS 启用 ATS(App Transport Security)
+2. 需要在工程中链接 `CFNetwork.framework`
+3. 在工程配置中的 `Other Linker Flags` 中加入 `-Objc -all_load`
+
+# SDK 1.7.3
+
+1. 增强稳定性，适配 iOS10
+2. 修复小于 32K 的 jpg 格式缩略图设置失败的问题
+
+# SDK 1.7.2
+
+1. 修复因 `CTTeleponyNetworkInfo` 引起的崩溃问题
 
 # SDK 1.7.1
+
 1. 支持兼容 ipv6 (提升稳定性)
 2. xCode Version 7.3.1 (7D1014) 编译
 
 # SDK 1.7
+
 1. 支持兼容 ipv6
 2. 修复若干问题增强稳定性
 
 # SDK 1.6.2
+
 1. Xcode 7.1 构建的 SDK 包
 2. 请使用 Xcode 7.1 进行编译
 
 # SDK 1.6.1
-1. 修复 armv7s 下，bitcode 可能编译不过
+
+1. 修复 armv7s 下, bitcode 可能编译不过
 2. 解决 warning
 
 # SDK 1.6
@@ -39,7 +63,7 @@ Mirror for CocoaPods
     </dict>
     ```
     
-    或者配置白名单域名 pingma.qq.com
+    或者配置白名单域名 `pingma.qq.com`
 
 2. 开发者需要在工程中链接上 `CoreTelephony.framework`
 3. 解决 bitcode 编译不过问题
