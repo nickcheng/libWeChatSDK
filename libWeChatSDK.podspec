@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name = "libWeChatSDK"
-  s.version = "1.7.1"
+  s.version = "1.7.5"
   s.license = {
     :type => "Copyright",
     :text => "      Copyright (c) 2012 Tencent. All rights reserved.\n"
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/libWeChatSDK"'
   }
   s.requires_arc = false
-  s.frameworks = 'SystemConfiguration', 'CoreTelephony'
+  s.frameworks = 'SystemConfiguration', 'CoreTelephony', 'CFNetwork'
   s.libraries = 'z', 'sqlite3.0', 'c++'
 
 end
